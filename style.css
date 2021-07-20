@@ -1,0 +1,75 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#333;
+	color:#fff;
+}
+.navbar{
+	border-bottom:3px solid #008ed6;
+	background:#292b2c;
+	opacity:0.6;
+}
+#home-section{
+	background-image: url(image/1.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+    min-height:700px;
+    background-attachment:fixed;
+}
+
+.dark-overlay{
+    	background: rgba(0,0,0,0.6);
+    	min-height:700px;
+    }
+
+.fa{
+	background:#fff;
+	color:#008ed6;
+	font-size:25px;
+	padding:5px;
+	border-radius:5px;
+}
+.card{
+	opacity:0.7;
+}
+.home-inner{
+	padding-top: 100px;
+	padding-bottom:50px;
+}
+#explore-main-section .fa{
+     font-size:25px;
+     background:#333;
+     color:#fff;
+     padding:4px;
+     border-radius:5px;
+}
+
+#share-main-section .fa{
+     font-size:25px;
+     background:#333;
+     color:#fff;
+     padding:4px;
+     border-radius:5px;
+}
+#create-section{
+	background-color:rgba(60,080,40,30);
+}
+#share-section{
+	background-color: rgba(5,9,40,30);
+}
+#footer-section{
+	background-color: rgba(4,8,9,90);
+}
+p{
+ margin-bottom: 0;
+}
+span{
+	margin-bottom: 2rem;
+}
+.btn-primary{
+	margin-top: 2rem;
+}
